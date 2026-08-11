@@ -11,7 +11,8 @@ import pytest
 from pydantic import BaseModel
 
 from genkit._core._error import GenkitError
-from genkit.model import ModelConfig, ModelConfigDict, ModelInfo, ModelRef, Supports, model_ref
+from genkit.model import ModelConfigDict, ModelInfo, ModelRef, Supports, model_ref
+from genkit.plugin_api import ModelConfig
 
 
 class CustomConfig(BaseModel):
